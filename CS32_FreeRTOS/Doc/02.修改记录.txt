@@ -1,0 +1,34 @@
+1.void AdcCalibrate(void)
+  因切换为CS32平台，故取消源代码中该ADC校验函数，在ADC初始化中完成ADC校验步骤	
+  
+*2.因未加载FreeRTOS，故breakerAdc.c文件中，函数static void AnAverCount(void)里，需要取消以下注释
+//	    portENTER_CRITICAL();
+//      portEXIT_CRITICAL();
+
+3.因未加载FreeRTOS，故breakerAdc.c文件中，函数static void BreakAdcHandler(void)里，在加载完breaker.C文件后需要取消以下注释
+//		BreakerHandler( &breakerParaInfo );	
+
+4.breakerAdc.c文件中，void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc)这一ADC中断回调函数在CS32
+  平台上暂未实现，现未编译
+  
+*5.  float GetIaA(void);
+    float GetIbA(void);
+	float GetIcA(void);
+
+	float GetAnRawIaAver(void);
+	float GetAnRawIbAver(void);
+	float GetAnRawIcAver(void);
+
+	float GetIaAver(void);
+	float GetIbAver(void);
+	float GetIcAver(void);  
+	以上这些函数与第4条同
+	
+6.CS32时钟配置暂未完成，之前使用写好的时钟配置函数，总是造成片子死机，故暂不研究，继续移植	
+
+7.移植完成后，在freertos.c文件中，vApplicationTickHook()函数里SwitchCtrlHandler()这个函数需要取消注释
+
+8.因芯片SRAM容量只有8K，故原本存放ADC 10个通道数据的数组，由64*10改为16*10，在breakAdc.c文件中，现在编译通过
+
+9.2021年12月7日
+  发现ADC的10个通道曾发生存储数据的数组移位现象，通过修改ADC各通道的转换时间后，该现象消失，现在转换时间为 ADC_SAMPLE_TIMES_13_5 这一参数

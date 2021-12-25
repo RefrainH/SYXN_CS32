@@ -1,0 +1,597 @@
+Dependencies for Project 'cs32f0xx_demo', Target 'cs32f0xx_start_demo': (DO NOT MODIFY !)
+CompilerVersion: 6140001::V6.14.1::ARMCLANG
+F (.\cs32f0xx_int.c)(0x61A491C6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver -I ../User_Project-I./RTE/_cs32f0xx_start_demo-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/HAL_Driver/inc-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/Include-D__UVISION_VERSION="532" -D_RTE_ -DCS32F036 -D_RTE_ -DCS32F036-o ./cs32f0xx_int.o -MD)
+I (..\User_Project\cs32f0xx_int.h)(0x5FD733C0)
+I (..\User_Project\main.h)(0x61A468F1)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51128E)
+I (RTE\_cs32f0xx_start_demo\RTE_Components.h)(0x61A48F3F)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (..\Driver\led.h)(0x5FD733EC)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx_conf.h)(0x5FD733F0)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rcu.h)(0x605C354E)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_gpio.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_dma.h)(0x605C39C2)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_adc.h)(0x601B4D0E)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_crc.h)(0x5FE0717A)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_flash.h)(0x5FDB1006)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_i2c.h)(0x601B47F4)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_fwdt.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_pmu.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_spi.h)(0x5FE3FBF4)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_tim.h)(0x5FE3FE50)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_usart.h)(0x605C2D88)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_wwdt.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_debug.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_exti.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_syscfg.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_misc.h)(0x5FD733EE)
+I (..\Driver\systick.h)(0x5FD733EC)
+F (.\main.c)(0x61A46ACC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver -I ../User_Project-I./RTE/_cs32f0xx_start_demo-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/HAL_Driver/inc-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/Include-D__UVISION_VERSION="532" -D_RTE_ -DCS32F036 -D_RTE_ -DCS32F036-o ./main.o -MD)
+I (..\User_Project\main.h)(0x61A468F1)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51128E)
+I (RTE\_cs32f0xx_start_demo\RTE_Components.h)(0x61A48F3F)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (..\Driver\led.h)(0x5FD733EC)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx_conf.h)(0x5FD733F0)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rcu.h)(0x605C354E)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_gpio.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_dma.h)(0x605C39C2)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_adc.h)(0x601B4D0E)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_crc.h)(0x5FE0717A)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_flash.h)(0x5FDB1006)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_i2c.h)(0x601B47F4)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_fwdt.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_pmu.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_spi.h)(0x5FE3FBF4)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_tim.h)(0x5FE3FE50)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_usart.h)(0x605C2D88)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_wwdt.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_debug.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_exti.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_syscfg.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_misc.h)(0x5FD733EE)
+I (..\Driver\systick.h)(0x5FD733EC)
+F (..\Driver\adc.c)(0x5FD733EC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver -I ../User_Project-I./RTE/_cs32f0xx_start_demo-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/HAL_Driver/inc-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/Include-D__UVISION_VERSION="532" -D_RTE_ -DCS32F036 -D_RTE_ -DCS32F036-o ./adc.o -MD)
+I (..\Driver\adc.h)(0x5FD733EC)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51128E)
+I (RTE\_cs32f0xx_start_demo\RTE_Components.h)(0x61A48F3F)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5F51128E)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx_conf.h)(0x5FD733F0)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rcu.h)(0x605C354E)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_gpio.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_dma.h)(0x605C39C2)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_adc.h)(0x601B4D0E)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_crc.h)(0x5FE0717A)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_flash.h)(0x5FDB1006)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_i2c.h)(0x601B47F4)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_fwdt.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_pmu.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_spi.h)(0x5FE3FBF4)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_tim.h)(0x5FE3FE50)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_usart.h)(0x605C2D88)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_wwdt.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_debug.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_exti.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_syscfg.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_misc.h)(0x5FD733EE)
+F (..\Driver\crc.c)(0x5FD733EC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver -I ../User_Project-I./RTE/_cs32f0xx_start_demo-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/HAL_Driver/inc-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/Include-D__UVISION_VERSION="532" -D_RTE_ -DCS32F036 -D_RTE_ -DCS32F036-o ./crc.o -MD)
+I (..\Driver\crc.h)(0x5FD733EC)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51128E)
+I (RTE\_cs32f0xx_start_demo\RTE_Components.h)(0x61A48F3F)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx_conf.h)(0x5FD733F0)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rcu.h)(0x605C354E)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_gpio.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_dma.h)(0x605C39C2)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_adc.h)(0x601B4D0E)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_crc.h)(0x5FE0717A)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_flash.h)(0x5FDB1006)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_i2c.h)(0x601B47F4)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_fwdt.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_pmu.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_spi.h)(0x5FE3FBF4)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_tim.h)(0x5FE3FE50)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_usart.h)(0x605C2D88)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_wwdt.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_debug.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_exti.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_syscfg.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_misc.h)(0x5FD733EE)
+F (..\Driver\fwdt.c)(0x60891346)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver -I ../User_Project-I./RTE/_cs32f0xx_start_demo-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/HAL_Driver/inc-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/Include-D__UVISION_VERSION="532" -D_RTE_ -DCS32F036 -D_RTE_ -DCS32F036-o ./fwdt.o -MD)
+I (..\Driver\fwdt.h)(0x6087BAB4)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51128E)
+I (RTE\_cs32f0xx_start_demo\RTE_Components.h)(0x61A48F3F)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5F51128E)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx_conf.h)(0x5FD733F0)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rcu.h)(0x605C354E)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_gpio.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_dma.h)(0x605C39C2)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_adc.h)(0x601B4D0E)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_crc.h)(0x5FE0717A)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_flash.h)(0x5FDB1006)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_i2c.h)(0x601B47F4)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_fwdt.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_pmu.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_spi.h)(0x5FE3FBF4)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_tim.h)(0x5FE3FE50)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_usart.h)(0x605C2D88)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_wwdt.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_debug.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_exti.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_syscfg.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_misc.h)(0x5FD733EE)
+F (..\Driver\i2c_ee.c)(0x6087D748)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver -I ../User_Project-I./RTE/_cs32f0xx_start_demo-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/HAL_Driver/inc-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/Include-D__UVISION_VERSION="532" -D_RTE_ -DCS32F036 -D_RTE_ -DCS32F036-o ./i2c_ee.o -MD)
+I (..\Driver\i2c_ee.h)(0x5FD733EC)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51128E)
+I (RTE\_cs32f0xx_start_demo\RTE_Components.h)(0x61A48F3F)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5F51128E)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx_conf.h)(0x5FD733F0)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rcu.h)(0x605C354E)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_gpio.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_dma.h)(0x605C39C2)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_adc.h)(0x601B4D0E)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_crc.h)(0x5FE0717A)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_flash.h)(0x5FDB1006)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_i2c.h)(0x601B47F4)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_fwdt.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_pmu.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_spi.h)(0x5FE3FBF4)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_tim.h)(0x5FE3FE50)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_usart.h)(0x605C2D88)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_wwdt.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_debug.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_exti.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_syscfg.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_misc.h)(0x5FD733EE)
+F (..\Driver\key.c)(0x6087AB56)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver -I ../User_Project-I./RTE/_cs32f0xx_start_demo-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/HAL_Driver/inc-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/Include-D__UVISION_VERSION="532" -D_RTE_ -DCS32F036 -D_RTE_ -DCS32F036-o ./key.o -MD)
+I (..\Driver\key.h)(0x5FD733EC)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51128E)
+I (RTE\_cs32f0xx_start_demo\RTE_Components.h)(0x61A48F3F)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx_conf.h)(0x5FD733F0)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rcu.h)(0x605C354E)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_gpio.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_dma.h)(0x605C39C2)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_adc.h)(0x601B4D0E)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_crc.h)(0x5FE0717A)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_flash.h)(0x5FDB1006)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_i2c.h)(0x601B47F4)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_fwdt.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_pmu.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_spi.h)(0x5FE3FBF4)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_tim.h)(0x5FE3FE50)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_usart.h)(0x605C2D88)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_wwdt.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_debug.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_exti.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_syscfg.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_misc.h)(0x5FD733EE)
+F (..\Driver\led.c)(0x5FD733EC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver -I ../User_Project-I./RTE/_cs32f0xx_start_demo-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/HAL_Driver/inc-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/Include-D__UVISION_VERSION="532" -D_RTE_ -DCS32F036 -D_RTE_ -DCS32F036-o ./led.o -MD)
+I (..\Driver\led.h)(0x5FD733EC)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51128E)
+I (RTE\_cs32f0xx_start_demo\RTE_Components.h)(0x61A48F3F)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx_conf.h)(0x5FD733F0)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rcu.h)(0x605C354E)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_gpio.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_dma.h)(0x605C39C2)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_adc.h)(0x601B4D0E)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_crc.h)(0x5FE0717A)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_flash.h)(0x5FDB1006)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_i2c.h)(0x601B47F4)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_fwdt.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_pmu.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_spi.h)(0x5FE3FBF4)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_tim.h)(0x5FE3FE50)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_usart.h)(0x605C2D88)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_wwdt.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_debug.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_exti.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_syscfg.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_misc.h)(0x5FD733EE)
+F (..\Driver\systick.c)(0x5FD733EC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver -I ../User_Project-I./RTE/_cs32f0xx_start_demo-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/HAL_Driver/inc-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/Include-D__UVISION_VERSION="532" -D_RTE_ -DCS32F036 -D_RTE_ -DCS32F036-o ./systick.o -MD)
+I (..\Driver\systick.h)(0x5FD733EC)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51128E)
+I (RTE\_cs32f0xx_start_demo\RTE_Components.h)(0x61A48F3F)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx_conf.h)(0x5FD733F0)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rcu.h)(0x605C354E)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_gpio.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_dma.h)(0x605C39C2)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_adc.h)(0x601B4D0E)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_crc.h)(0x5FE0717A)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_flash.h)(0x5FDB1006)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_i2c.h)(0x601B47F4)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_fwdt.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_pmu.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_spi.h)(0x5FE3FBF4)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_tim.h)(0x5FE3FE50)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_usart.h)(0x605C2D88)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_wwdt.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_debug.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_exti.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_syscfg.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_misc.h)(0x5FD733EE)
+F (..\Driver\tim.c)(0x6087A4E4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver -I ../User_Project-I./RTE/_cs32f0xx_start_demo-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/HAL_Driver/inc-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/Include-D__UVISION_VERSION="532" -D_RTE_ -DCS32F036 -D_RTE_ -DCS32F036-o ./tim.o -MD)
+I (..\Driver\tim.h)(0x5FD733EC)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51128E)
+I (RTE\_cs32f0xx_start_demo\RTE_Components.h)(0x61A48F3F)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5F51128E)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx_conf.h)(0x5FD733F0)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rcu.h)(0x605C354E)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_gpio.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_dma.h)(0x605C39C2)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_adc.h)(0x601B4D0E)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_crc.h)(0x5FE0717A)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_flash.h)(0x5FDB1006)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_i2c.h)(0x601B47F4)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_fwdt.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_pmu.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_spi.h)(0x5FE3FBF4)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_tim.h)(0x5FE3FE50)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_usart.h)(0x605C2D88)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_wwdt.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_debug.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_exti.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_syscfg.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_misc.h)(0x5FD733EE)
+F (..\Driver\usart.c)(0x60878070)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver -I ../User_Project-I./RTE/_cs32f0xx_start_demo-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/HAL_Driver/inc-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/Include-D__UVISION_VERSION="532" -D_RTE_ -DCS32F036 -D_RTE_ -DCS32F036-o ./usart.o -MD)
+I (..\Driver\usart.h)(0x5FD733EC)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51128E)
+I (RTE\_cs32f0xx_start_demo\RTE_Components.h)(0x61A48F3F)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5F51128E)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx_conf.h)(0x5FD733F0)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rcu.h)(0x605C354E)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_gpio.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_dma.h)(0x605C39C2)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_adc.h)(0x601B4D0E)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_crc.h)(0x5FE0717A)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_flash.h)(0x5FDB1006)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_i2c.h)(0x601B47F4)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_fwdt.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_pmu.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_spi.h)(0x5FE3FBF4)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_tim.h)(0x5FE3FE50)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_usart.h)(0x605C2D88)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_wwdt.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_debug.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_exti.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_syscfg.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_misc.h)(0x5FD733EE)
+F (..\Driver\w25x64.c)(0x60891430)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver -I ../User_Project-I./RTE/_cs32f0xx_start_demo-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/HAL_Driver/inc-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/Include-D__UVISION_VERSION="532" -D_RTE_ -DCS32F036 -D_RTE_ -DCS32F036-o ./w25x64.o -MD)
+I (..\Driver\w25x64.h)(0x5FD733EC)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51128E)
+I (RTE\_cs32f0xx_start_demo\RTE_Components.h)(0x61A48F3F)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx_conf.h)(0x5FD733F0)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rcu.h)(0x605C354E)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_gpio.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_dma.h)(0x605C39C2)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_adc.h)(0x601B4D0E)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_crc.h)(0x5FE0717A)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_flash.h)(0x5FDB1006)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_i2c.h)(0x601B47F4)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_fwdt.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_pmu.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_spi.h)(0x5FE3FBF4)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_tim.h)(0x5FE3FE50)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_usart.h)(0x605C2D88)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_wwdt.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_debug.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_exti.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_syscfg.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_misc.h)(0x5FD733EE)
+F (..\Driver\wkup.c)(0x5FD733EC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver -I ../User_Project-I./RTE/_cs32f0xx_start_demo-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/HAL_Driver/inc-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/Include-D__UVISION_VERSION="532" -D_RTE_ -DCS32F036 -D_RTE_ -DCS32F036-o ./wkup.o -MD)
+I (..\Driver\wkup.h)(0x60891894)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51128E)
+I (RTE\_cs32f0xx_start_demo\RTE_Components.h)(0x61A48F3F)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (..\Driver\systick.h)(0x5FD733EC)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx_conf.h)(0x5FD733F0)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rcu.h)(0x605C354E)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_gpio.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_dma.h)(0x605C39C2)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_adc.h)(0x601B4D0E)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_crc.h)(0x5FE0717A)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_flash.h)(0x5FDB1006)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_i2c.h)(0x601B47F4)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_fwdt.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_pmu.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_spi.h)(0x5FE3FBF4)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_tim.h)(0x5FE3FE50)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_usart.h)(0x605C2D88)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_wwdt.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_debug.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_exti.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_syscfg.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_misc.h)(0x5FD733EE)
+F (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\src\cs32f0xx_adc.c)(0x605C38FC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver -I ../User_Project-I./RTE/_cs32f0xx_start_demo-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/HAL_Driver/inc-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/Include-D__UVISION_VERSION="532" -D_RTE_ -DCS32F036 -D_RTE_ -DCS32F036-o ./cs32f0xx_adc_1.o -MD)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_adc.h)(0x601B4D0E)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51128E)
+I (RTE\_cs32f0xx_start_demo\RTE_Components.h)(0x61A48F3F)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rcu.h)(0x605C354E)
+F (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\src\cs32f0xx_crc.c)(0x5FE0715A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver -I ../User_Project-I./RTE/_cs32f0xx_start_demo-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/HAL_Driver/inc-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/Include-D__UVISION_VERSION="532" -D_RTE_ -DCS32F036 -D_RTE_ -DCS32F036-o ./cs32f0xx_crc_1.o -MD)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_crc.h)(0x5FE0717A)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51128E)
+I (RTE\_cs32f0xx_start_demo\RTE_Components.h)(0x61A48F3F)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+F (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\src\cs32f0xx_debug.c)(0x5FD733F0)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver -I ../User_Project-I./RTE/_cs32f0xx_start_demo-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/HAL_Driver/inc-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/Include-D__UVISION_VERSION="532" -D_RTE_ -DCS32F036 -D_RTE_ -DCS32F036-o ./cs32f0xx_debug_1.o -MD)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_debug.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51128E)
+I (RTE\_cs32f0xx_start_demo\RTE_Components.h)(0x61A48F3F)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+F (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\src\cs32f0xx_dma.c)(0x605C3986)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver -I ../User_Project-I./RTE/_cs32f0xx_start_demo-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/HAL_Driver/inc-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/Include-D__UVISION_VERSION="532" -D_RTE_ -DCS32F036 -D_RTE_ -DCS32F036-o ./cs32f0xx_dma_1.o -MD)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_dma.h)(0x605C39C2)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51128E)
+I (RTE\_cs32f0xx_start_demo\RTE_Components.h)(0x61A48F3F)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+F (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\src\cs32f0xx_exti.c)(0x5FD733F0)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver -I ../User_Project-I./RTE/_cs32f0xx_start_demo-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/HAL_Driver/inc-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/Include-D__UVISION_VERSION="532" -D_RTE_ -DCS32F036 -D_RTE_ -DCS32F036-o ./cs32f0xx_exti_1.o -MD)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_exti.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51128E)
+I (RTE\_cs32f0xx_start_demo\RTE_Components.h)(0x61A48F3F)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+F (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\src\cs32f0xx_flash.c)(0x5FD733F0)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver -I ../User_Project-I./RTE/_cs32f0xx_start_demo-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/HAL_Driver/inc-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/Include-D__UVISION_VERSION="532" -D_RTE_ -DCS32F036 -D_RTE_ -DCS32F036-o ./cs32f0xx_flash_1.o -MD)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_flash.h)(0x5FDB1006)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51128E)
+I (RTE\_cs32f0xx_start_demo\RTE_Components.h)(0x61A48F3F)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+F (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\src\cs32f0xx_fwdt.c)(0x5FD733F0)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver -I ../User_Project-I./RTE/_cs32f0xx_start_demo-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/HAL_Driver/inc-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/Include-D__UVISION_VERSION="532" -D_RTE_ -DCS32F036 -D_RTE_ -DCS32F036-o ./cs32f0xx_fwdt_1.o -MD)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_fwdt.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51128E)
+I (RTE\_cs32f0xx_start_demo\RTE_Components.h)(0x61A48F3F)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+F (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\src\cs32f0xx_gpio.c)(0x5FE08020)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver -I ../User_Project-I./RTE/_cs32f0xx_start_demo-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/HAL_Driver/inc-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/Include-D__UVISION_VERSION="532" -D_RTE_ -DCS32F036 -D_RTE_ -DCS32F036-o ./cs32f0xx_gpio.o -MD)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_gpio.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51128E)
+I (RTE\_cs32f0xx_start_demo\RTE_Components.h)(0x61A48F3F)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rcu.h)(0x605C354E)
+F (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\src\cs32f0xx_i2c.c)(0x60614DF4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver -I ../User_Project-I./RTE/_cs32f0xx_start_demo-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/HAL_Driver/inc-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/Include-D__UVISION_VERSION="532" -D_RTE_ -DCS32F036 -D_RTE_ -DCS32F036-o ./cs32f0xx_i2c_1.o -MD)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_i2c.h)(0x601B47F4)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51128E)
+I (RTE\_cs32f0xx_start_demo\RTE_Components.h)(0x61A48F3F)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rcu.h)(0x605C354E)
+F (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\src\cs32f0xx_misc.c)(0x5FE07EBC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver -I ../User_Project-I./RTE/_cs32f0xx_start_demo-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/HAL_Driver/inc-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/Include-D__UVISION_VERSION="532" -D_RTE_ -DCS32F036 -D_RTE_ -DCS32F036-o ./cs32f0xx_misc.o -MD)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_misc.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51128E)
+I (RTE\_cs32f0xx_start_demo\RTE_Components.h)(0x61A48F3F)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+F (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\src\cs32f0xx_pmu.c)(0x5FD733F0)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver -I ../User_Project-I./RTE/_cs32f0xx_start_demo-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/HAL_Driver/inc-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/Include-D__UVISION_VERSION="532" -D_RTE_ -DCS32F036 -D_RTE_ -DCS32F036-o ./cs32f0xx_pmu_1.o -MD)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_pmu.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51128E)
+I (RTE\_cs32f0xx_start_demo\RTE_Components.h)(0x61A48F3F)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rcu.h)(0x605C354E)
+F (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\src\cs32f0xx_rcu.c)(0x605C3056)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver -I ../User_Project-I./RTE/_cs32f0xx_start_demo-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/HAL_Driver/inc-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/Include-D__UVISION_VERSION="532" -D_RTE_ -DCS32F036 -D_RTE_ -DCS32F036-o ./cs32f0xx_rcu_1.o -MD)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rcu.h)(0x605C354E)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51128E)
+I (RTE\_cs32f0xx_start_demo\RTE_Components.h)(0x61A48F3F)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+F (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\src\cs32f0xx_spi.c)(0x5FE3FC3A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver -I ../User_Project-I./RTE/_cs32f0xx_start_demo-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/HAL_Driver/inc-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/Include-D__UVISION_VERSION="532" -D_RTE_ -DCS32F036 -D_RTE_ -DCS32F036-o ./cs32f0xx_spi_1.o -MD)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_spi.h)(0x5FE3FBF4)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51128E)
+I (RTE\_cs32f0xx_start_demo\RTE_Components.h)(0x61A48F3F)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rcu.h)(0x605C354E)
+F (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\src\cs32f0xx_syscfg.c)(0x5FD733F0)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver -I ../User_Project-I./RTE/_cs32f0xx_start_demo-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/HAL_Driver/inc-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/Include-D__UVISION_VERSION="532" -D_RTE_ -DCS32F036 -D_RTE_ -DCS32F036-o ./cs32f0xx_syscfg_1.o -MD)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_syscfg.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51128E)
+I (RTE\_cs32f0xx_start_demo\RTE_Components.h)(0x61A48F3F)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+F (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\src\cs32f0xx_tim.c)(0x5FE40002)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver -I ../User_Project-I./RTE/_cs32f0xx_start_demo-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/HAL_Driver/inc-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/Include-D__UVISION_VERSION="532" -D_RTE_ -DCS32F036 -D_RTE_ -DCS32F036-o ./cs32f0xx_tim_1.o -MD)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_tim.h)(0x5FE3FE50)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51128E)
+I (RTE\_cs32f0xx_start_demo\RTE_Components.h)(0x61A48F3F)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rcu.h)(0x605C354E)
+F (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\src\cs32f0xx_usart.c)(0x605C2D0E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver -I ../User_Project-I./RTE/_cs32f0xx_start_demo-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/HAL_Driver/inc-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/Include-D__UVISION_VERSION="532" -D_RTE_ -DCS32F036 -D_RTE_ -DCS32F036-o ./cs32f0xx_usart_1.o -MD)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_usart.h)(0x605C2D88)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51128E)
+I (RTE\_cs32f0xx_start_demo\RTE_Components.h)(0x61A48F3F)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rcu.h)(0x605C354E)
+F (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\src\cs32f0xx_wwdt.c)(0x5FD733F0)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver -I ../User_Project-I./RTE/_cs32f0xx_start_demo-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/HAL_Driver/inc-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/Include-D__UVISION_VERSION="532" -D_RTE_ -DCS32F036 -D_RTE_ -DCS32F036-o ./cs32f0xx_wwdt_1.o -MD)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_wwdt.h)(0x5FD733EE)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51128E)
+I (RTE\_cs32f0xx_start_demo\RTE_Components.h)(0x61A48F3F)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rcu.h)(0x605C354E)
+F (RTE\Device\CS32F035K6U6\cs32f0xx_conf.h)(0x5FD733F0)()
+F (RTE\Device\CS32F035K6U6\startup_cs32f036.S)(0x5FE40BE4)(--cpu Cortex-M0 -g --pd "__MICROLIB SETA 1"-I.\RTE\_cs32f0xx_start_demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc-IC:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include--pd "__UVISION_VERSION SETA 532"--pd "_RTE_ SETA 1"--pd "CS32F036 SETA 1"--pd "_RTE_ SETA 1"--list .\listings\startup_cs32f036.lst--xref -o .\startup_cs32f036_1.o--depend .\startup_cs32f036_1.d)
+F (RTE\Device\CS32F035K6U6\system_cs32f0xx.c)(0x5FD733F4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Driver -I ../User_Project-I./RTE/_cs32f0xx_start_demo-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/HAL_Driver/inc-IC:/Keil_v5/ARM/PACK/Chipsea/CS32F0xx_DFP/1.0.5/Device/Include-D__UVISION_VERSION="532" -D_RTE_ -DCS32F036 -D_RTE_ -DCS32F036-o ./system_cs32f0xx.o -MD)
+I (C:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51128E)
+I (RTE\_cs32f0xx_start_demo\RTE_Components.h)(0x61A48F3F)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)

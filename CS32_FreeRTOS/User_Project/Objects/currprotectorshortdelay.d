@@ -1,0 +1,13 @@
+.\objects\currprotectorshortdelay.o: ..\App\Src\currProtectorShortDelay.c
+.\objects\currprotectorshortdelay.o: ..\App\Inc\currProtectorShortDelay.h
+.\objects\currprotectorshortdelay.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\currprotectorshortdelay.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\currprotectorshortdelay.o: ..\App\Inc\currProtector.h
+.\objects\currprotectorshortdelay.o: ..\Bsp\breakerAdc.h
+.\objects\currprotectorshortdelay.o: ..\App\Inc\breaker.h
+.\objects\currprotectorshortdelay.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
+.\objects\currprotectorshortdelay.o: ..\App\Inc\currProtectorLongDelay.h
+.\objects\currprotectorshortdelay.o: ..\App\Inc\log.h
+.\objects\currprotectorshortdelay.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\currprotectorshortdelay.o: ..\App\Inc\about.h
+.\objects\currprotectorshortdelay.o: ..\App\Inc\memMgr.h
